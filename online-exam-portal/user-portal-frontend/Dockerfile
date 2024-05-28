@@ -21,14 +21,3 @@ EXPOSE 3000
 CMD ["nginx", "-g", "daemon off;"]
 
 
-# FROM node:14
-
-# WORKDIR /usr/user-portal-frontend
-
-# COPY . .
-# RUN rm -rf node_modules/ package-lock.json
-# RUN npm install
-# RUN npm run build
-
-# # Run the application
-# CMD ["sh","-c", "npm start"]
