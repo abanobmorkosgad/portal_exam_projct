@@ -1,0 +1,3 @@
+terraform/.terraform*
+terraform/terraform*
+k8s/mongo-secret.yaml
